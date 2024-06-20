@@ -1,0 +1,133 @@
+body {
+  font-family: 'Lato', sans-serif; /* Add a modern font */
+  margin: 0;
+  padding: 20px;
+  background-color: #e3e4c5; /* Light olive background */
+  color: #5a3e36; /* Dark brown text */
+}
+
+.header {
+  background-color: #5a3e36; /* Darker brown background */
+  color: #fff; /* White text */
+  padding: 20px 0;
+  text-align: center; /* Center the content */
+}
+
+h1 {
+  font-size: 2.5em; /* Larger headline */
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #fff; /* White links */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px;
+  border: 1px solid #fff; /* Add a white border */
+  border-radius: 5px; /* Round corners */
+  margin-right: 10px;
+}
+
+.contact a:hover { /* Change link color on hover */
+  background-color: #fff;
+  color: #5a3e36;
+}
+
+.section {
+  margin-bottom: 40px; /* More space between sections */
+  border-bottom: 1px solid #ddd; /* Add a subtle divider */
+  padding-bottom: 20px;
+}
+
+.section:last-child { /* Remove divider from last section */
+  border-bottom: none;
+}
+
+.section-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  position: relative; /* For the underline */
+}
+
+.section-title::after {
+  content: ""; /* Add an empty element */
+  display: block;
+  width: 100%; /* Full width underline */
+  height: 2px; /* Underline thickness */
+  background-color: #8b8878; /* Underline color */
+  position: absolute;
+  bottom: 0; /* Position underline at the bottom */
+  left: 0; /* Align underline to the left */
+}
+
+.experience-item, .education-item, .volunteer-item {
+  margin-bottom: 20px;
+}
+
+h3, h4 {
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.skills-section { /* New section style for Skills & Interests */
+  text-align: center; /* Center content */
+}
+
+.skills-section li {
+  display: inline-block; 
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Round corners */
+}
+
+.experience-image {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.experience-image img {
+  max-width: 100px; 
+  height: auto;
+}
+
+.div1 {
+  background-color: #d5d6a0;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.div2 {
+  background-color: #bfc093;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.div3 {
+  background-color: #a9aa80;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.div4 {
+  background-color: #939466;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
